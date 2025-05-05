@@ -1,6 +1,6 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Fueling your Dapp
+description: A guide to paying for hosting and computation.
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
