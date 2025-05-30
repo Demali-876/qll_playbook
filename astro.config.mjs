@@ -2,6 +2,9 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+  site: 'https://demali-876.github.io/qll_playbook/',
+  base: '/qll_playbook/',
+  output: 'static',
   integrations: [
     starlight({
       title: 'Quantum Leap Labs',

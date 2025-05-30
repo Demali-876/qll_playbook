@@ -1,0 +1,11 @@
+---
+import Chips from './Chips.astro';
+
+interface Props {
+  labels: string[];
+}
+const { labels } = Astro.props;
+---
+<div class="flex flex-wrap">
+  {labels.map((label) => <Chips text={label} />)}
+</div>
